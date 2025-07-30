@@ -1,7 +1,7 @@
 # SQL Project: Zomato Country Wise Restaurant Analysis
 
-**Author:** Anushree Jindal
-**Dataset Used:** [Zomato Country Wise Dataset](https://www.kaggle.com/datasets/iottech/zomato-country-wise-dataset)
+**Author**: Anushree Jindal
+**Dataset Used**: [Zomato Country Wise Dataset](https://www.kaggle.com/datasets/iottech/zomato-country-wise-dataset)
 
 ## Project Overview
 This project presents a structured SQL analysis of Zomato’s country-wise restaurant data, uncovering meaningful insights across 15 countries. The goal is to explore how restaurant trends, customer preferences, and service features vary from country to country.
