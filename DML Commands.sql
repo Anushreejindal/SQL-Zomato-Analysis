@@ -298,33 +298,3 @@ select rd.country_code, rd.country, no_of_restaurants, Average_rating
 from restaurant_data rd
 join global_avg ga on 1=1
 where no_of_restaurants> ga.global_average and Average_rating<3.5 ;
-
--- 31. In each country, which cuisines have average ratings above 4.0 but are offered by fewer than 5% of that country's restaurants?
--- (Helps identify underrepresented yet loved cuisines.)
-
-
-
--- 32. Which countries have more than 50% of their restaurants offering online delivery?
--- (Useful for targeting countries with higher digital ordering penetration.)
-
--- 33. What are the top 10 cities with the highest population-to-restaurant ratio (i.e., low restaurant density)?
--- (Potential expansion targets.)
-
--- 34. Analyze the relationship between 'cost for two' and 'votes' using correlation — does higher price reduce customer engagement?
-
--- 35. Compare the average rating of restaurants that offer online delivery vs. those that don’t. Is there a significant difference?
-
--- 36. For each country, what is the average price range and standard deviation?
--- (Gives insight into pricing consistency and potential for premium/affordable segmentation.)
-
--- 37. List restaurants with ratings above 4.5 but do not offer online delivery.
--- (Opportunity for expansion in delivery.)
-
--- 38. Create a histogram/distribution of ratings for restaurants with vs. without table booking.
--- (Analyze whether table booking affects customer satisfaction.)
-
--- 39. In countries with more than 100 restaurants, which have over 70% of restaurants rated below 3.5?
--- (Indicates quality improvement zones at a national level.)
-
--- 40. Identify cities with over 50 restaurants where Indian cuisine has an average rating above 4.2.
--- (Useful for targeting brand or cuisine-specific expansion.)
