@@ -1,7 +1,7 @@
 # SQL Project: Zomato Country Wise Restaurant Analysis
 
 ## Project Overview
-This project presents a structured SQL analysis of Zomato’s country-wise restaurant data, uncovering meaningful insights across 21 countries. The goal is to explore how restaurant trends, customer preferences, and service features vary from country to country.
+This project presents a structured SQL analysis of Zomato’s country-wise restaurant data, uncovering meaningful insights across 15 countries. The goal is to explore how restaurant trends, customer preferences, and service features vary from country to country.
 
 Through SQL queries, the project answers key questions like:
 
