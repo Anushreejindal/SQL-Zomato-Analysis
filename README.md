@@ -1,6 +1,6 @@
 # SQL Project: Zomato Country Wise Restaurant Analysis
 
-**Author**: Anushree Jindal
+**Author**: Anushree Jindal <br>
 **Dataset Used**: [Zomato Country Wise Dataset](https://www.kaggle.com/datasets/iottech/zomato-country-wise-dataset)
 
 ## Project Overview
