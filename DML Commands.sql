@@ -298,3 +298,43 @@ select rd.country_code, rd.country, no_of_restaurants, Average_rating
 from restaurant_data rd
 join global_avg ga on 1=1
 where no_of_restaurants> ga.global_average and Average_rating<3.5 ;
+
+-- ADVANCED SEGMENTATION
+-- 31. Identify the top 10 cuisines by rating within India.
+
+select c.country, rc.cuisine, round(avg(aggregate_rating),2) as Average_rating
+from restaurant r
+join restaurant_cuisine rc on r.restaurant_id=rc.restaurant_id
+join country c on r.country_code=c.country_code
+group by c.country_code, c.country, rc.cuisine_id, rc.cuisine
+having country="India"
+order by Average_rating desc
+limit 10;
+
+-- 32. Identify top 20 cities with the most diverse cuisines available.
+
+select co.country, c.city, count(distinct rc.cuisine_id) as no_of_cuisines
+from restaurant r
+join city c on r.city_id=c.city_id
+join restaurant_cuisine rc on r.restaurant_id=rc.restaurant_id
+join country co on c.country_code=co.country_code
+group by c.city_id, c.city, co.country
+order by no_of_cuisines desc
+limit 20;
+
+-- 33. Compare average costs of North Indian cuisine across countries.
+
+select c.country, rc.cuisine, round(avg(average_cost_for_two),2) as average_cost
+from restaurant r 
+join restaurant_cuisine rc on r.restaurant_id=rc.restaurant_id
+join country c on r.country_code=c.country_code
+WHERE rc.cuisine = "North Indian"
+group by c.country_code, c.country, rc.cuisine_id, rc.cuisine;
+
+-- 34. Identify the price sensitivity of customers in each country (votes vs. price range analysis).
+
+select c.country, r.price_range, round(avg(r.votes),2) as Average_votes
+from restaurant r
+join country c on r.country_code=c.country_code
+group by c.country_code, c.country, r.price_range
+order by c.country_code,r.price_range;
