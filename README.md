@@ -20,4 +20,7 @@ This analysis can help stakeholders identify market opportunities, improve servi
 
 ## Entity Relationship Diagram
 
-<img width="500" height="288" alt="image" src="https://github.com/user-attachments/assets/e06c2031-5275-4303-a093-da3eb29cb9b5" />
+<p>
+  <img width="600" height="350" alt="ER Diagram" src="https://github.com/user-attachments/assets/e06c2031-5275-4303-a093-da3eb29cb9b5" />
+</p>
+
