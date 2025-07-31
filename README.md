@@ -17,3 +17,6 @@ Through SQL queries, the project answers key questions like:
 The project uses joins, aggregations, subqueries, and filtering to reveal patterns in restaurant distribution, cuisine popularity, pricing, and service quality — all with a country-wise lens.
 
 This analysis can help stakeholders identify market opportunities, improve service offerings, and understand consumer behavior across different regions.
+
+
+<img width="1347" height="788" alt="image" src="https://github.com/user-attachments/assets/e06c2031-5275-4303-a093-da3eb29cb9b5" />
