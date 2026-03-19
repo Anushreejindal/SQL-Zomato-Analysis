@@ -22,3 +22,8 @@ This analysis can help stakeholders identify market opportunities, improve servi
 
 <img width="600" height="350" alt="ER Diagram" src="https://github.com/user-attachments/assets/e06c2031-5275-4303-a093-da3eb29cb9b5" />
 
+## Dashboard
+
+![Business Overview](Power BI/Images/business overview.png)
+![Customer Experience](Power BI/Images/customer experience(1).png)
+![Customer Experience](Power BI/Images/customer experience(2).png)
