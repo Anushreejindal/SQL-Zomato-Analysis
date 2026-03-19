@@ -24,6 +24,6 @@ This analysis can help stakeholders identify market opportunities, improve servi
 
 ## Dashboard
 
-![Business Overview](Power BI/Images/business overview.png)
-![Customer Experience](Power BI/Images/customer experience(1).png)
-![Customer Experience](Power BI/Images/customer experience(2).png)
+![Business Overview](Power BI/Images/business_overview.png)
+![Customer Experience](Power BI/Images/customer_experience(1).png)
+![Customer Experience](Power BI/Images/customer_experience(2).png)
