@@ -25,4 +25,5 @@ This analysis can help stakeholders identify market opportunities, improve servi
 ## Dashboard
 
 <img width="600" height="350" alt="ER Diagram" src="https://raw.githubusercontent.com/Anushreejindal/SQL-Zomato-Analysis/refs/heads/main/Power%20BI/Images/business_overview.png" />
-
+<img width="600" height="350" alt="ER Diagram" src="https://raw.githubusercontent.com/Anushreejindal/SQL-Zomato-Analysis/refs/heads/main/Power%20BI/Images/customer_experience(1).png" />
+<img width="600" height="350" alt="ER Diagram" src="https://raw.githubusercontent.com/Anushreejindal/SQL-Zomato-Analysis/refs/heads/main/Power%20BI/Images/customer_experience(2).png" />
